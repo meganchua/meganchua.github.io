@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Projects</title>
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <!-- BootStrap Style Sheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- CSS Style Sheets -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <button onclick="topFunction()" id="scroll-btn" title="Go to top"><i class="fas fa-arrow-up fa-lg"></i></button>
+  <!-- Top Navigation Section -->
+  <section class=nav-section>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+          <img class="icon-img" src="images/MeganPic.png" alt="icon-img">
+        </a>
+
+        <button class="navbar-toggler" id="hamburger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto navbar-items">
+            <li class="nav-item active">
+              <a class="nav-link header-link" href="about.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link header-link dropdown-toggle dropdown-toggle-split" href="projects.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="projects.html#web-dev">Web Development</a>
+                <a class="dropdown-item" href="projects.html#game-dev">Game Development</a>
+                <a class="dropdown-item" href="projects.html#leadership">Leadership Workshops</a>
+                <a class="dropdown-item" href="projects.html#extra">Extra Projects</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+          <h1 class="tab-txt">My Projects</h1>
+        </div>
+        <div class="col-lg-4"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Web Development -->
+  <section class="middle-section" id="web-dev">
+    <div class="container-fluid projects-container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-lg-4">
+          <h2>Web Development</h2>
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <img class="web-img mx-auto" src="images/tindog.png" alt="tindog-img">
+            <div class="card-body">
+              <h3>tindog</h3>
+              <p>A website designed as a mock "tinder for dogs" web application. Includes advanced HTML5, CSS3, and Bootstrap.
+                The main focus for this project was utilizing advanced Bootstrap elements to improve the UI/UX design.</p>
+              <a href="https://meganchua.github.io/tindog-website/" target="_blank" class="btn btn-outline-primary"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/meganchua/tindog-website" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <img class="web-img mx-auto" src="images/checklist.png" alt="checklist-img">
+            <div class="card-body">
+              <h3>checklist</h3>
+              <p>A web application designed as a to-do list for users. This is a dynamic to-do list utilizing Node, Express, Javascript, EJS, and Mongoose.
+                This server is hosted and connected using MongoDB Atlas.</p>
+              <a href="https://still-falls-29973.herokuapp.com/" target="_blank" class="btn btn-outline-primary"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/meganchua/todolist-web-application" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <img class="web-img mx-auto" src="images/newsletter.png" alt="newsletter-img">
+            <div class="card-body">
+              <h3>newsletter</h3>
+              <p>A web application designed as a newsletter sign-up landing page. The server utilizes Javascript and Node modules
+                to communicate with the Mailchimp API and save contact information within Mailchimp.</p>
+              <a href="https://frozen-castle-34767.herokuapp.com/" target="_blank" class="btn btn-outline-primary"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/meganchua/newsletter-api-project" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Game Development -->
+  <section class="colored-section" id="game-dev">
+    <div class="container-fluid projects-container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-lg-4">
+          <h2 class="colored-txt">Game Development</h2>
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <video class = "game-vid" autoplay controls muted>
+              <source src="videos/happywhale2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h3>happy whale</h3>
+              <p>A 2D game coded using C# and Unity. This game was inspired by existing games called Whale Trail and Flappy Bird.</p>
+              <a href="https://github.com/meganchua/game-development/tree/master/Happy%20Whale%202D%20Game" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <video class = "game-vid" autoplay controls muted>
+              <source src="videos/pocketpaint.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h3>pocket paint</h3>
+              <p>A 2D Mobile game targeted for iOS devices. This endless, side-scroller is a fun and simple game utilizing
+              C# and Unity to power it.</p>
+              <a href="https://github.com/meganchua/funtimegame" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <video class = "game-vid" autoplay controls muted>
+              <source src="videos/Blob the Builder.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+              <h3>blob the builder</h3>
+              <p>A 3D PC game coded with C# and Unity. This game is a take on the popular slither.io and enlarging games.</p>
+              <a href="https://github.com/meganchua/game-development/tree/master/Blob%20the%20Builder%203D%20Game" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Workshops -->
+  <section class="middle-section" id="leadership">
+    <div class="container-fluid projects-container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-lg-5">
+          <h2>Leadership Workshops</h2>
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <img class="web-img mx-auto" src="images/leadership.png" alt="leadership-img">
+            <div class="card-body">
+              <h3>taking initiative</h3>
+              <p>A workshop geared towards encouraging leaders to take initiative and act independently.
+                Clearly lays out steps towards being a better decision maker and responsible individual.</p>
+              <a href="attachments/Leadership Workshop.pdf" target="_blank" class="btn btn-outline-primary"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <img class="web-img mx-auto" src="images/goals.png" alt="goals-img">
+            <div class="card-body">
+              <h3>setting goals</h3>
+              <p>A guide to creating attainable and effective goals. This is a visualization exercise
+                designed to manifest goals into reality. An interactive workshop geared towards
+                inspiring individuals.</p>
+              <a href="attachments/Goal Setting.pdf" target="_blank" class="btn btn-outline-primary"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <img class="web-img mx-auto" src="images/time-management.png" alt="time-management-img">
+            <div class="card-body">
+              <h3>time management</h3>
+              <p>A workshop laying out the best tips to managing your time effectively.
+                Draws out common mistakes when it comes to time management.
+                Emphasizes the importance of prioritizing and working towards a goal.</p>
+              <a href="attachments/Time Management Workshop.pdf" target="_blank" class="btn btn-outline-primary"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Extras -->
+  <section class="colored-section" id="extra">
+    <div class="container-fluid projects-container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-lg-4">
+          <h2 class="colored-txt">Extra Projects</h2>
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <i class="fas fa-terminal fa-3x"></i>
+            <div class="card-body">
+              <h3>operating systems</h3>
+              <p>Coding projects geared towards imitating the command line on an Operating System. Coded in C, utilizes semaphores, mutexes, and multi-threading.</p>
+              <a href="https://github.com/meganchua/operating-systems" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <i class="fas fa-code-branch fa-3x"></i>
+            <div class="card-body">
+              <h3>programming languages</h3>
+              <p>Additional programming projects geared towards practicing multiple languages.
+                Advanced projects utilizing C, C++, Python, and Lua.</p>
+              <a href="https://github.com/meganchua/coding-projects" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card shadow p-3 mb-5 bg-white rounded">
+            <i class="fab fa-js-square fa-3x"></i>
+            <div class="card-body">
+              <h3>javascript web applications</h3>
+              <p>Multiple web applications using VanillaJS, jQuery, Express, and Node.js.
+                Utilizes the DOM to target specific elements and create fully functioning applications.</p>
+              <a href="https://github.com/meganchua/javascript-web-applications" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Bottom Colored Section -->
+  <section class="bottom-section">
+    <div class="container-fluid">
+      <a class="footer-txt" href="https://www.linkedin.com/in/megan-chua-a84134161/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a class="footer-txt" href="https://github.com/meganchua" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a class="footer-txt" href="attachments/Megan Chua Resume.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Resume</a>
+      <p class="copyright-txt">© 2020 Megan Chua.</p>
+    </div>
+  </section>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/9db3cf4dff.js" crossorigin="anonymous"></script>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Custom JS -->
+  <script src="index.js" charset="utf-8"></script>
+  <!-- BootStrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
