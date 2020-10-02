@@ -498,6 +498,10 @@ h3 {
   .tree-img {
     top: 300px;
   }
+
+  .btn-outline-secondary {
+    margin: 0px 5px 5px 5px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -619,6 +623,14 @@ h3 {
 
   .footer-txt {
     margin: 10px 10px;
+  }
+
+  .btn-outline-secondary {
+    margin: 0px 5px 20px 5px;
+  }
+
+  .self-img {
+    margin-bottom: 20px;
   }
 
 }
