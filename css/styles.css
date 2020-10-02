@@ -1,4 +1,12 @@
 /* HTML Elements */
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 body {
   color: #3e4149;
   margin: 0px;
@@ -480,6 +488,18 @@ h3 {
   }
 }
 
+@media (max-width: 1275px) {
+  .tree-img {
+    top: 200px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .tree-img {
+    top: 300px;
+  }
+}
+
 @media (max-width: 991px) {
   .tree-img {
     display: none;
@@ -512,8 +532,9 @@ h3 {
 }
 
 @media (max-width: 768px) {
-  .nav-item {
-    margin-left: 20px;
+  .navbar-items {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -561,6 +582,45 @@ h3 {
     top: 325px;
     left: 0px;
   }
+}
+
+@media (max-width: 400px) {
+  .icon-img {
+    position: relative;
+    right: 70px;
+  }
+
+  #hamburger {
+    position: relative;
+    left: 260px;
+    bottom: 80px;
+  }
+
+  .navbar-items {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .leaves-img {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    left: 160px;
+    bottom: 300px;
+  }
+
+  .leaves-img2 {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    top: 450px;
+    left: 0px;
+  }
+
+  .footer-txt {
+    margin: 10px 10px;
+  }
+
 }
 
 /* Hobbies Animations */
