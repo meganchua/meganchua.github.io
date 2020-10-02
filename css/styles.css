@@ -481,159 +481,6 @@ h3 {
   src: url('fonts/Amsterdam.otf');
 }
 
-/* Media Queries */
-@media (max-width: 1295px) {
-  .tab-txt {
-    position: static;
-  }
-}
-
-@media (max-width: 1275px) {
-  .tree-img {
-    top: 200px;
-  }
-}
-
-@media (max-width: 1180px) {
-  .tree-img {
-    top: 300px;
-  }
-
-  .btn-outline-secondary {
-    margin: 0px 5px 5px 5px;
-  }
-}
-
-@media (max-width: 991px) {
-  .tree-img {
-    display: none;
-  }
-
-  .leaves-img {
-    width: 40%;
-    display: inline-block;
-    position: absolute;
-    left: 500px;
-    bottom: 0px;
-  }
-
-  .leaves-img2 {
-    width: 40%;
-    display: inline-block;
-    position: absolute;
-    top: 200px;
-    left: 0px;
-  }
-
-  .top-section {
-    padding-bottom: 275px;
-  }
-
-  .aboutme-headers {
-    text-align: center;
-  }
-
-}
-
-@media (max-width: 768px) {
-  .navbar-items {
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-@media (max-width: 730px) {
-  .icon-img {
-    position: relative;
-    right: 50px;
-  }
-
-  #hamburger {
-    position: relative;
-    left: 45px;
-  }
-
-  .leaves-img {
-    width: 40%;
-    display: inline-block;
-    position: absolute;
-    left: 400px;
-    bottom: 100px;
-  }
-
-  .leaves-img2 {
-    width: 40%;
-    display: inline-block;
-    position: absolute;
-    top: 300px;
-    left: 0px;
-  }
-}
-
-@media (max-width: 500px) {
-  .leaves-img {
-    width: 40%;
-    display: inline-block;
-    position: absolute;
-    left: 250px;
-    bottom: 160px;
-  }
-
-  .leaves-img2 {
-    width: 40%;
-    display: inline-block;
-    position: absolute;
-    top: 325px;
-    left: 0px;
-  }
-}
-
-@media (max-width: 400px) {
-  .icon-img {
-    position: relative;
-    right: 70px;
-  }
-
-  #hamburger {
-    position: relative;
-    left: 260px;
-    bottom: 80px;
-  }
-
-  .navbar-items {
-    margin-right: 30px;
-    margin-left: 30px;
-  }
-
-  .leaves-img {
-    width: 40%;
-    display: inline-block;
-    position: absolute;
-    left: 160px;
-    bottom: 300px;
-  }
-
-  .leaves-img2 {
-    width: 40%;
-    display: inline-block;
-    position: absolute;
-    top: 450px;
-    left: 0px;
-  }
-
-  .footer-txt {
-    margin: 10px 10px;
-  }
-
-  .btn-outline-secondary {
-    margin: 0px 5px 20px 5px;
-  }
-
-  .self-img {
-    margin-bottom: 20px;
-  }
-
-}
 
 /* Hobbies Animations */
 div#all {
@@ -742,4 +589,221 @@ div#all {
 
 .view-first:hover a.info {
   transition-delay: 0.2s;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 1295px) {
+  .tab-txt {
+    position: static;
+    margin-top: 0px;
+  }
+
+  .contact-txt {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1275px) {
+  .tree-img {
+    top: 200px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .tree-img {
+    top: 300px;
+  }
+
+  .btn-outline-secondary {
+    margin: 0px 5px 5px 5px;
+  }
+
+  .view h2 {
+    margin: 10px 0 0 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-txt {
+    text-align: center;
+  }
+  .tree-img {
+    display: none;
+  }
+
+  .leaves-img {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+    bottom: 0px;
+  }
+
+  .leaves-img2 {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+  }
+
+  .top-section {
+    padding-bottom: 275px;
+  }
+
+  .aboutme-headers {
+    text-align: center;
+  }
+
+  .mask h2{
+    font-size: 3rem;
+  }
+
+  .mask p{
+    font-size: 2rem;
+  }
+
+
+
+}
+
+@media (max-width: 768px) {
+  .navbar-items {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 730px) {
+  .icon-img {
+    position: relative;
+    right: 50px;
+  }
+
+  #hamburger {
+    position: relative;
+    left: 45px;
+  }
+
+  .leaves-img {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    left: 400px;
+    bottom: 100px;
+  }
+
+  .leaves-img2 {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+  }
+
+  .mask h2{
+    font-size: 2rem;
+  }
+
+  .mask p{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .leaves-img {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    left: 250px;
+    bottom: 160px;
+  }
+
+  .leaves-img2 {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    top: 325px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .icon-img {
+    position: relative;
+    right: 70px;
+  }
+
+  #hamburger {
+    position: relative;
+    left: 260px;
+    bottom: 80px;
+  }
+
+  .navbar-items {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .leaves-img {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    left: 160px;
+    bottom: 200px;
+  }
+
+  .leaves-img2 {
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    top: 350px;
+    left: 0px;
+  }
+
+  .footer-txt {
+    margin: 10px 10px;
+  }
+
+  .btn-outline-secondary {
+    margin: 0px 5px 20px 5px;
+  }
+
+  .self-img {
+    margin-bottom: 20px;
+  }
+
+  .tab-txt {
+    font-size: 5.7rem;
+  }
+
+  h1 {
+    font-size: 6.7rem;
+    margin-top: 115px;
+  }
+
+  .card-title {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .contact-txt {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .view h2 {
+    margin: 10px 0 0 0;
+  }
+
+  .mask h2{
+    font-size: 1.2rem;
+  }
+
+  .mask p{
+    font-size: .8rem;
+  }
+
 }
