@@ -781,7 +781,7 @@ div#all {
 
   h1 {
     font-size: 5.7rem;
-    margin-top: 40px;
+    margin-top: 50px;
   }
 
   .card-title {
@@ -804,6 +804,10 @@ div#all {
 
   .mask p{
     font-size: .8rem;
+  }
+
+  .navbar {
+    z-index: 1;
   }
 
 }
